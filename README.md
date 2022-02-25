@@ -3,7 +3,7 @@
 <br/>
 v__PROJECT_NAME
 </h1>
-<h3 align="center">v__YOUR_PROJECT_DESCRIPTION</h3>
+<h3 align="center">v__PROJECT_DESCRIPTION</h3>
 <p align="center">
   <a href="#" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
