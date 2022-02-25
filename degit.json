@@ -1,6 +1,6 @@
 [
 	{
 		"action": "remove",
-		"files": ["CHANGELOG.md", "yarn.lock"]
+		"files": ["yarn.lock"]
 	}
 ]
