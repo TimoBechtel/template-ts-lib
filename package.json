@@ -1,9 +1,9 @@
 {
 	"name": "v__project_name",
 	"version": "0.0.0",
-	"description": "v__YOUR_PROJECT_DESCRIPTION",
-	"repository": "git@github.com:v__AUTHOR/v__PROJECT_NAME.git",
-	"author": "v__YOUR_AUTHOR_NAME",
+	"description": "v__PROJECT_DESCRIPTION",
+	"repository": "git@github.com:v__GITHUB_USER/v__PROJECT_NAME.git",
+	"author": "v__AUTHOR",
 	"license": "MIT",
 	"source": "src/index.ts",
 	"main": "dist/main.js",
