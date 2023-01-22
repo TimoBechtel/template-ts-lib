@@ -1,5 +1,5 @@
 {
-	"name": "v__project_name",
+	"name": "v__PROJECT_NAME",
 	"version": "0.0.0",
 	"description": "v__PROJECT_DESCRIPTION",
 	"repository": "git@github.com:v__GITHUB_USER/v__PROJECT_NAME.git",
@@ -10,7 +10,7 @@
 	"module": "dist/index.mjs",
 	"types": "dist/index.d.ts",
 	"keywords": [
-		"v__KEYWORD"
+		"v__NPM_KEYWORDS"
 	],
 	"files": [
 		"dist",

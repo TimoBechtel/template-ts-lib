@@ -26,6 +26,12 @@ v__PROJECT_NAME
 
 This template is an opinionated boilerplate for typescript libraries.
 
+## TL;DR
+
+```sh
+pnpm dlx degit TimoBechtel/template-js-lib && ./init-scripts/init.sh
+```
+
 ## Install
 
 There are multiple ways to use this template:
@@ -34,12 +40,12 @@ There are multiple ways to use this template:
 - use [degit](https://github.com/Rich-Harris/degit)
 
   ```sh
-  npx degit TimoBechtel/template-js-lib
+  pnpm dlx degit TimoBechtel/template-js-lib
   ```
 
 ## Usage
 
-1. Search for variables starting with `v__` to edit the most important variables. (e.g. `v__PROJECT_NAME`)
+1. Search for variables starting with `v__` to edit the most important variables. (e.g. `v__PROJECT_NAME`) or simply run `./init-scripts/init.sh` for an interactive setup.
 2. Enable github workflows, if needed, by renaming the `disabled.github/workflows/` folder to `.github/workflows/`
 3. Create an npm token and add it to the github project settings, if you want to publish to npm.
 
