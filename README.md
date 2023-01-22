@@ -43,6 +43,25 @@ There are multiple ways to use this template:
 2. Enable github workflows, if needed, by renaming the `disabled.github/workflows/` folder to `.github/workflows/`
 3. Create an npm token and add it to the github project settings, if you want to publish to npm.
 
+## Package format / Browser support
+
+### Format
+
+This package is compiled to support both CommonJS and ES modules.
+
+### Transpilation / Browser support
+
+This package is not transpiled to support older browsers. This reduces the package size and performance and allows the consumer to choose the transpilation target.
+If you need to support older browsers, you can configure your bundler to transpile this package.
+
+Example when using Next.js ([docs](https://nextjs.org/docs/advanced-features/compiler#module-transpilation))
+
+```js
+module.exports = {
+	transpilePackages: ['v__PROJECT_NAME'],
+};
+```
+
 ## Development / Contributing
 
 ### Run tests
