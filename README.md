@@ -24,7 +24,7 @@ v__PROJECT_NAME
 
 ## About
 
-This template is an opinionated boilerplate for javascript libraries.
+This template is an opinionated boilerplate for typescript libraries.
 
 ## Install
 
