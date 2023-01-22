@@ -8,12 +8,27 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
-      - name: Setup Node.js
-        uses: actions/setup-node@v1
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2.2.4
+        id: pnpm-install
+        with:
+          version: 7
+          run_install: false
+
+      - name: Node setup
+        uses: actions/setup-node@v3
         with:
           node-version: 16
+          cache: 'pnpm'
+          # configures .npmrc file for publishing to npm
+          registry-url: 'https://registry.npmjs.org'
+
       - name: Install dependencies
-        run: yarn install
+        run: pnpm install --frozen-lockfile
+
       - name: Test
-        run: yarn test
+        run: pnpm test

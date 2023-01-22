@@ -1,6 +1,6 @@
 [
 	{
 		"action": "remove",
-		"files": ["yarn.lock"]
+		"files": ["pnpm-lock.yaml"]
 	}
 ]

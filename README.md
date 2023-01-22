@@ -17,9 +17,9 @@ v__PROJECT_NAME
 
 ## Table of Contents
 
-- [About](#About)
-- [Installation](#Install)
-- [Usage](#Usage)
+- [About](#about)
+- [Installation](#install)
+- [Usage](#usage)
 - [Development / Contributing](#Development-Contributing)
 
 ## About
@@ -48,7 +48,7 @@ There are multiple ways to use this template:
 ### Run tests
 
 ```sh
-yarn run test
+pnpm test
 ```
 
 ### Commit messages

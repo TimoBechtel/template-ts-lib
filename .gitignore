@@ -4,10 +4,6 @@
 # Dependency directories
 node_modules/
 
-# logs
-yarn-debug.log*
-yarn-error.log*
-
 # test
 coverage
 
