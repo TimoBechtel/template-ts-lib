@@ -29,7 +29,7 @@ This template is an opinionated boilerplate for typescript libraries.
 ## TL;DR
 
 ```sh
-pnpm dlx degit TimoBechtel/template-js-lib && ./init-scripts/init.sh
+pnpm dlx degit TimoBechtel/template-js-lib && pnpm i && ./init-scripts/init.sh
 ```
 
 ## Install
